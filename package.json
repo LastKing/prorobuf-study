@@ -1,0 +1,15 @@
+{
+  "name": "prorobuf-study",
+  "version": "0.0.1",
+  "description": "protobuf study",
+  "main": "index.js",
+  "author": "toonew",
+  "license": "MIT",
+  "scripts": {
+    "pb1": "pbjs lm/lm.message.proto -t commonjs  > lm/lm.message.js",
+    "pb2": "pbjs lm/cover.message.proto -t commonjs  > lm/cover.message.js"
+  },
+  "dependencies": {
+    "protobufjs": "5.0.2"
+  }
+}
